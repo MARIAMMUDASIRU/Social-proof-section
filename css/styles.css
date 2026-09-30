@@ -105,7 +105,75 @@ img {
   margin-top: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
+  body {
+    width: 90%;
+    margin-top: 70px;
+  }
+
+  .page-top {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  head {
+    width: 20%;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+
+  .description {
+    font-size: 18px;
+    padding-left: 0;
+  }
+
+  .ratings {
+    margin: 50px 0 0 0;
+  }
+
+  .reviews,
+  .report,
+  .bestTech {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
+    padding: 0 40px;
+    height: 60px;
+  }
+
+  .ratings h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .stars {
+    font-size: 30px;
+  }
+
+  .report {
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+
+  .bestTech {
+    margin-left: 100px;
+    margin-right: -100px;
+  }
+}
+
+@media (min-width: 1000px) {
   body {
     width: 90%;
     margin-top: 70px;
@@ -127,7 +195,6 @@ img {
   }
 
   .description {
-    padding-left: 100px;
     font-size: 18px;
   }
 
